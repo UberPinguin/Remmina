@@ -5,7 +5,6 @@
 EAPI=2
 EGIT_REPO_URI="https://github.com/UberPinguin/Remmina.git"
 EGIT_PROJECT="remmina"
-EGIT_SOURCEDIR="${WORKDIR}"
 
 inherit cmake-utils git-2 eutils gnome2-utils
 
@@ -36,10 +35,6 @@ DEPEND="${RDEPEND}
 	nls? ( sys-devel/gettext )
 	!net-misc/remmina-plugins"
 
-S="${WORKDIR}"
-
-CMAKE_IN_SOURCE_BUILD=1
-
 src_configure() {
 	if use ssh && ! use vte; then
 		ewarn "Enabling ssh without vte only provides sftp support."
@@ -60,7 +55,6 @@ src_configure() {
 }
 
 src_install() {
-	cmake-utils_src_compile || die "cmake compile failed"
 	cmake-utils_src_install || die "cmake install failed"
 	dodoc remmina/{AUTHORS,ChangeLog,README} || die "dodoc failed"
 }
