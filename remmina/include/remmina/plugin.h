@@ -21,7 +21,7 @@
 #ifndef __REMMINA_PLUGIN_H__
 #define __REMMINA_PLUGIN_H__
 
-#include <remmina/types.h>
+#include "types.h"
 
 G_BEGIN_DECLS
 
