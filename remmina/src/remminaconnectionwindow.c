@@ -22,7 +22,7 @@
 #include <gdk/gdkkeysyms.h>
 #include <glib/gi18n.h>
 #include <stdlib.h>
-#include "config.h"
+//#include "config.h"
 #include "remminapublic.h"
 #include "remminafile.h"
 #include "remminafilemanager.h"

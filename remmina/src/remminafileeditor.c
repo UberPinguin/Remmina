@@ -21,7 +21,7 @@
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
 #include <stdlib.h>
-#include "config.h"
+//#include "config.h"
 #ifdef HAVE_LIBAVAHI_UI
 #include <avahi-ui/avahi-ui.h>
 #endif

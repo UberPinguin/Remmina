@@ -22,7 +22,7 @@
 #ifndef __REMMINAPLUGINCOMMON_H__
 #define __REMMINAPLUGINCOMMON_H__
 
-#include "config.h"
+//#include "config.h"
 #include <gtk/gtk.h>
 #include <glib/gi18n-lib.h>
 #include <glib/gstdio.h>

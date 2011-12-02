@@ -22,7 +22,7 @@
 #ifndef __REMMINAPUBLIC_H__
 #define __REMMINAPUBLIC_H__
 
-#include "config.h"
+//#include "config.h"
 
 /* Wrapper marcos to make the compiler happy on both signle/multi-threaded mode */
 #ifdef HAVE_PTHREAD

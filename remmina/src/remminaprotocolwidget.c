@@ -21,7 +21,7 @@
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
 #include <stdlib.h>
-#include "config.h"
+//#include "config.h"
 #include "remminapublic.h"
 #include "remminapref.h"
 #include "remminassh.h"
