@@ -19,7 +19,7 @@
  */
 
 #include <gtk/gtk.h>
-#include "config.h"
+//#include "config.h"
 #include "remminaavahi.h"
 
 #ifdef HAVE_LIBAVAHI_CLIENT
