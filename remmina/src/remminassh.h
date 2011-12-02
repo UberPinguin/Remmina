@@ -22,7 +22,7 @@
 #ifndef __REMMINASSH_H__
 #define __REMMINASSH_H__
 
-//#include "config.h"
+#include "config.h"
 
 #ifdef HAVE_LIBSSH
 

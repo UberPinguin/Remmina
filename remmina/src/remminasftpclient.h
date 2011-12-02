@@ -22,7 +22,7 @@
 #ifndef __REMMINASFTPCLIENT_H__
 #define __REMMINASFTPCLIENT_H__
 
-//#include "config.h"
+#include "config.h"
 
 #ifdef HAVE_LIBSSH
 
