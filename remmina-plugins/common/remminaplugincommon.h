@@ -26,7 +26,7 @@
 #include <gtk/gtk.h>
 #include <glib/gi18n-lib.h>
 #include <glib/gstdio.h>
-#include <remmina/plugin.h>
+#include "remmina/include/remmina/plugin.h"
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>

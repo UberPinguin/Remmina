@@ -21,7 +21,7 @@
 #ifndef __REMMINAPLUGINMANAGER_H__
 #define __REMMINAPLUGINMANAGER_H__
 
-#include "../include/remmina/plugin.h"
+#include "remmina/include/remmina/plugin.h"
 
 G_BEGIN_DECLS
 

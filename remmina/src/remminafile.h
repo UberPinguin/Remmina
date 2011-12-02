@@ -18,7 +18,7 @@
  * Boston, MA 02111-1307, USA.
  */
 
-#include "../include/remmina/types.h" 
+#include "remmina/include/remmina/types.h" 
 
 #ifndef __REMMINAFILE_H__
 #define __REMMINAFILE_H__
