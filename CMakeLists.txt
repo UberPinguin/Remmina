@@ -75,14 +75,14 @@ check_include_files(sys/un.h HAVE_SYS_UN_H)
 check_include_files(errno.h HAVE_ERRNO_H)
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
-include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${CMAKE_SOURCE_DIR})
 
 set(REMMINA_VERSION "0.9.99.1")
 set(REMMINA_DATADIR "${CMAKE_INSTALL_PREFIX}/share/remmina")
 set(REMMINA_LOCALEDIR "${CMAKE_INSTALL_PREFIX}/share/locale")
 set(REMMINA_PLUGINDIR "${CMAKE_INSTALL_PREFIX}/lib/remmina/plugins")
 
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h)
 
 find_suggested_package(PTHREAD)
 if(PTHREAD_FOUND)
