@@ -32,13 +32,16 @@ if(LIBSSH_FOUND)
 	target_link_libraries(remmina ${SSH_LIBRARIES})
 endif()
 
-find_required_package(XKBFILE)
+find_suggested_package(XKBFILE)
 
 if(LIBSSH_FOUND AND XKBFILE_FOUND)
 	add_subdirectory(nx)
 endif()
 
-add_subdirectory(xdmcp)
+find_suggested_package(XDMCP)
+if(XDMCP_FOUND)
+	add_subdirectory(xdmcp)
+endif()
 
 find_suggested_package(FREERDP)
 if(FREERDP_FOUND)
