@@ -23,7 +23,7 @@ pkg_check_modules(PC_XDMCP REQUIRED xdmcp)
 find_path(XDMCP_INCLUDE_DIR X11/Xdmcp.h
 	HINTS ${PC_XDMCP_INCLUDEDIR} ${PC_XDMCP_INCLUDE_DIRS})
 
-find_library(XDMCP_LIBRARY NAMES libXdmcp
+find_library(XDMCP_LIBRARY NAME Xdmcp
 	HINTS ${PC_XDMCP_LIBDIR} ${PC_XDMCP_LIBRARY_DIRS})
 
 include(FindPackageHandleStandardArgs)
