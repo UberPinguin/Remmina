@@ -17,7 +17,6 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, 
 # Boston, MA 02111-1307, USA.
 
-set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/)
 set(REMMINA_SRCS
 	src/remminaabout.c
 	src/remminaabout.h
