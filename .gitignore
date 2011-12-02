@@ -16,7 +16,7 @@ Makefile
 Makefile.in
 aclocal.m4
 _configs.sed
-#config.h
+config.h
 config.log
 config.status
 config.guess
